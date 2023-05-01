@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027642C1DA04426F4C11E44E271700D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0BF92F77C39E617B24CB6C3852D51650 /* Pods-shivalib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AD10EF39078563E916FF1D5B6F76C6 /* Pods-shivalib_Tests-dummy.m */; };
+		26ED6367D8C86394D8FA187DCF2CD559 /* Pods-shivalib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE1464D2A295A872D39D31FEBEA78914 /* Pods-shivalib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55E00D2FE1896074019B6C3DE5FFD7B8 /* Pods-shivalib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8348893E2D17A385E9EA8FBD2A1483F1 /* Pods-shivalib_Example-dummy.m */; };
+		71C83E1E5E0F50B586E5FF6723386465 /* Pods-shivalib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E29DA66226A82E09309D8014DFF0FE4 /* Pods-shivalib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7207B41613BCEDD593C218BD700EA1A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7B2D60F9CCC644A0FA3B0532B1C9B1D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		84E92EE8167D2AC9E01CF682B85C715E /* shivalib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9C3E9380BA52BC6A8BFB0F3DC31760 /* shivalib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2C7110D832BDE7C4625145659AA5F75 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E78CA7447832CEC67CDD3D4E027E5 /* ReplaceMe.swift */; };
+		E50300A8FDF4B367B6ED6B43FC760780 /* shivalib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF0B595886C32E82F259C3A45D724E /* shivalib-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		370483DDA141F72C408D97BF02B11F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C9606A212242426B16A2AED6533D9A2;
+			remoteInfo = "Pods-shivalib_Example";
+		};
+		6DDB05BC734ABF45352BFEE616C3BAA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 319A36F8620A40FE4A5758E970821045;
+			remoteInfo = shivalib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		068F62F1F1676702EB89B1145907DB52 /* Pods-shivalib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-shivalib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1070DC84E4FF7CB3C75D3D16C038DA8B /* shivalib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "shivalib-Info.plist"; sourceTree = "<group>"; };
+		1E29DA66226A82E09309D8014DFF0FE4 /* Pods-shivalib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-shivalib_Example-umbrella.h"; sourceTree = "<group>"; };
+		214DE316477E3E378C3D9F3C0D00DBD4 /* Pods-shivalib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-shivalib_Tests"; path = Pods_shivalib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BF0B595886C32E82F259C3A45D724E /* shivalib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "shivalib-dummy.m"; sourceTree = "<group>"; };
+		292B092DC9E53299C4534CC08579AF8A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2CCA375A743BA3661B93F00010FB41CD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		373C03D5B568CFF426E83C78E9EC5755 /* Pods-shivalib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-shivalib_Tests.modulemap"; sourceTree = "<group>"; };
+		4C833EF10E56CAB94BA439BCE3C84E3A /* Pods-shivalib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-shivalib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		565F9CD5102A3A800974C16D14D7E08F /* shivalib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shivalib.release.xcconfig; sourceTree = "<group>"; };
+		58A784A7E751AAE28C43426A340A4A9D /* Pods-shivalib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-shivalib_Example"; path = Pods_shivalib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		684DA5289DB9C408301A736A2DA5486A /* Pods-shivalib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-shivalib_Example.modulemap"; sourceTree = "<group>"; };
+		6EE984AAA8C83C6B03224E308D52F43D /* shivalib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = shivalib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73DC8F9449E0FBE3BBCCC4AFCD1E7E1C /* Pods-shivalib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-shivalib_Example-Info.plist"; sourceTree = "<group>"; };
+		75033B2727751A7E830A984AC7CF3997 /* shivalib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shivalib-prefix.pch"; sourceTree = "<group>"; };
+		7C9C3E9380BA52BC6A8BFB0F3DC31760 /* shivalib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shivalib-umbrella.h"; sourceTree = "<group>"; };
+		7C9C85E0391322BE4A6E33EBD4E7C876 /* Pods-shivalib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-shivalib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8348893E2D17A385E9EA8FBD2A1483F1 /* Pods-shivalib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-shivalib_Example-dummy.m"; sourceTree = "<group>"; };
+		87A6E956CA30036435ABDB9635CC1DD1 /* shivalib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = shivalib.modulemap; sourceTree = "<group>"; };
+		95473BC0BF71BBA89B00412B91832A66 /* Pods-shivalib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-shivalib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B32F10CBDBB0C6A1792A6567B00224B6 /* Pods-shivalib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-shivalib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B395DAA5AF4BC3518AA55C58C33769FF /* Pods-shivalib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-shivalib_Tests-Info.plist"; sourceTree = "<group>"; };
+		C5F4CC651CBCC72F9F7FD7B817778300 /* Pods-shivalib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-shivalib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDD6307CD190E65958B7084191729673 /* shivalib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shivalib.debug.xcconfig; sourceTree = "<group>"; };
+		D5A86C59219ABAF642810A5961D31132 /* shivalib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = shivalib; path = shivalib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8AD10EF39078563E916FF1D5B6F76C6 /* Pods-shivalib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-shivalib_Tests-dummy.m"; sourceTree = "<group>"; };
+		DE1464D2A295A872D39D31FEBEA78914 /* Pods-shivalib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-shivalib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E24D3A97BCF3F28260495F6A0BA5E86C /* Pods-shivalib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-shivalib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F585BFE226B8DD598234A4CF4F075D98 /* Pods-shivalib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-shivalib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F986B9C594647D5CB935D0AD9EF53AD0 /* Pods-shivalib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-shivalib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA7E78CA7447832CEC67CDD3D4E027E5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = shivalib/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B14A4C0A84A39625E336C6DE0630F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027642C1DA04426F4C11E44E271700D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D1D5C23C68559F45C9647CD987E790C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B2D60F9CCC644A0FA3B0532B1C9B1D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1208797902D98E349BDC0F6B2908CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7207B41613BCEDD593C218BD700EA1A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FC19F4758F24A46B5758A09889F2D44 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFBCB61FC8FE3D14B6892F182C7F9D5E /* shivalib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		52FD5DDC99A6C54914FC5D29F93D8B5A /* Pods-shivalib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				373C03D5B568CFF426E83C78E9EC5755 /* Pods-shivalib_Tests.modulemap */,
+				F986B9C594647D5CB935D0AD9EF53AD0 /* Pods-shivalib_Tests-acknowledgements.markdown */,
+				068F62F1F1676702EB89B1145907DB52 /* Pods-shivalib_Tests-acknowledgements.plist */,
+				D8AD10EF39078563E916FF1D5B6F76C6 /* Pods-shivalib_Tests-dummy.m */,
+				B395DAA5AF4BC3518AA55C58C33769FF /* Pods-shivalib_Tests-Info.plist */,
+				DE1464D2A295A872D39D31FEBEA78914 /* Pods-shivalib_Tests-umbrella.h */,
+				C5F4CC651CBCC72F9F7FD7B817778300 /* Pods-shivalib_Tests.debug.xcconfig */,
+				B32F10CBDBB0C6A1792A6567B00224B6 /* Pods-shivalib_Tests.release.xcconfig */,
+			);
+			name = "Pods-shivalib_Tests";
+			path = "Target Support Files/Pods-shivalib_Tests";
+			sourceTree = "<group>";
+		};
+		53A55512638EF56E379516FC7BE4D42A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58A784A7E751AAE28C43426A340A4A9D /* Pods-shivalib_Example */,
+				214DE316477E3E378C3D9F3C0D00DBD4 /* Pods-shivalib_Tests */,
+				D5A86C59219ABAF642810A5961D31132 /* shivalib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		647211E5F3AE93EF989528CED0DDF65D /* Pods-shivalib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				684DA5289DB9C408301A736A2DA5486A /* Pods-shivalib_Example.modulemap */,
+				4C833EF10E56CAB94BA439BCE3C84E3A /* Pods-shivalib_Example-acknowledgements.markdown */,
+				7C9C85E0391322BE4A6E33EBD4E7C876 /* Pods-shivalib_Example-acknowledgements.plist */,
+				8348893E2D17A385E9EA8FBD2A1483F1 /* Pods-shivalib_Example-dummy.m */,
+				F585BFE226B8DD598234A4CF4F075D98 /* Pods-shivalib_Example-frameworks.sh */,
+				73DC8F9449E0FBE3BBCCC4AFCD1E7E1C /* Pods-shivalib_Example-Info.plist */,
+				1E29DA66226A82E09309D8014DFF0FE4 /* Pods-shivalib_Example-umbrella.h */,
+				E24D3A97BCF3F28260495F6A0BA5E86C /* Pods-shivalib_Example.debug.xcconfig */,
+				95473BC0BF71BBA89B00412B91832A66 /* Pods-shivalib_Example.release.xcconfig */,
+			);
+			name = "Pods-shivalib_Example";
+			path = "Target Support Files/Pods-shivalib_Example";
+			sourceTree = "<group>";
+		};
+		6FCC84EC039BB177A8D4B2A6909F47F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87A6E956CA30036435ABDB9635CC1DD1 /* shivalib.modulemap */,
+				26BF0B595886C32E82F259C3A45D724E /* shivalib-dummy.m */,
+				1070DC84E4FF7CB3C75D3D16C038DA8B /* shivalib-Info.plist */,
+				75033B2727751A7E830A984AC7CF3997 /* shivalib-prefix.pch */,
+				7C9C3E9380BA52BC6A8BFB0F3DC31760 /* shivalib-umbrella.h */,
+				CDD6307CD190E65958B7084191729673 /* shivalib.debug.xcconfig */,
+				565F9CD5102A3A800974C16D14D7E08F /* shivalib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/shivalib";
+			sourceTree = "<group>";
+		};
+		79D394EC8E1CC5087A3144C502EA7B23 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				647211E5F3AE93EF989528CED0DDF65D /* Pods-shivalib_Example */,
+				52FD5DDC99A6C54914FC5D29F93D8B5A /* Pods-shivalib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7F2CE33BEF6FB898C5AE123DF029791E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				292B092DC9E53299C4534CC08579AF8A /* LICENSE */,
+				2CCA375A743BA3661B93F00010FB41CD /* README.md */,
+				6EE984AAA8C83C6B03224E308D52F43D /* shivalib.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4FC19F4758F24A46B5758A09889F2D44 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				53A55512638EF56E379516FC7BE4D42A /* Products */,
+				79D394EC8E1CC5087A3144C502EA7B23 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFBCB61FC8FE3D14B6892F182C7F9D5E /* shivalib */ = {
+			isa = PBXGroup;
+			children = (
+				FA7E78CA7447832CEC67CDD3D4E027E5 /* ReplaceMe.swift */,
+				7F2CE33BEF6FB898C5AE123DF029791E /* Pod */,
+				6FCC84EC039BB177A8D4B2A6909F47F8 /* Support Files */,
+			);
+			name = shivalib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		351C257C1BE3B4ABAB714E9580A7A678 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26ED6367D8C86394D8FA187DCF2CD559 /* Pods-shivalib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD1210E498169C439158D6E82E0BE5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E92EE8167D2AC9E01CF682B85C715E /* shivalib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE946AEAA02887BD3C4F27083E69BCF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C83E1E5E0F50B586E5FF6723386465 /* Pods-shivalib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		319A36F8620A40FE4A5758E970821045 /* shivalib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC54257A4DDF46664E3CBF3E6448BC4 /* Build configuration list for PBXNativeTarget "shivalib" */;
+			buildPhases = (
+				9FD1210E498169C439158D6E82E0BE5C /* Headers */,
+				E23642778CB25CB10D036FB37BF58651 /* Sources */,
+				8B14A4C0A84A39625E336C6DE0630F51 /* Frameworks */,
+				B18D968A18B5E51F9E6A4AB92A77C15A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shivalib;
+			productName = shivalib;
+			productReference = D5A86C59219ABAF642810A5961D31132 /* shivalib */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C9606A212242426B16A2AED6533D9A2 /* Pods-shivalib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 828A93214C4C5087A53A6546A090CBB3 /* Build configuration list for PBXNativeTarget "Pods-shivalib_Example" */;
+			buildPhases = (
+				FE946AEAA02887BD3C4F27083E69BCF4 /* Headers */,
+				A67A125EE5B439F528132EC098C35AB4 /* Sources */,
+				9D1D5C23C68559F45C9647CD987E790C /* Frameworks */,
+				2912BDBF25AC46DBC9FD0D643B12F594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38D849F73EA7D3B176D082E272861FDC /* PBXTargetDependency */,
+			);
+			name = "Pods-shivalib_Example";
+			productName = Pods_shivalib_Example;
+			productReference = 58A784A7E751AAE28C43426A340A4A9D /* Pods-shivalib_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2EB030A027E2C8A4296FBD5F060815E /* Pods-shivalib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94E329D07856207E631AD75D0FA1F2B /* Build configuration list for PBXNativeTarget "Pods-shivalib_Tests" */;
+			buildPhases = (
+				351C257C1BE3B4ABAB714E9580A7A678 /* Headers */,
+				CB0F4AB6DE9CE8D53FC7B1041A7EE928 /* Sources */,
+				D1208797902D98E349BDC0F6B2908CA1 /* Frameworks */,
+				E654F1544D408C6563D05D770455614C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E98E26930BDD9C9F57F9CD8067BD8B69 /* PBXTargetDependency */,
+			);
+			name = "Pods-shivalib_Tests";
+			productName = Pods_shivalib_Tests;
+			productReference = 214DE316477E3E378C3D9F3C0D00DBD4 /* Pods-shivalib_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 53A55512638EF56E379516FC7BE4D42A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C9606A212242426B16A2AED6533D9A2 /* Pods-shivalib_Example */,
+				A2EB030A027E2C8A4296FBD5F060815E /* Pods-shivalib_Tests */,
+				319A36F8620A40FE4A5758E970821045 /* shivalib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2912BDBF25AC46DBC9FD0D643B12F594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18D968A18B5E51F9E6A4AB92A77C15A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E654F1544D408C6563D05D770455614C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A67A125EE5B439F528132EC098C35AB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E00D2FE1896074019B6C3DE5FFD7B8 /* Pods-shivalib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0F4AB6DE9CE8D53FC7B1041A7EE928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF92F77C39E617B24CB6C3852D51650 /* Pods-shivalib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23642778CB25CB10D036FB37BF58651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C7110D832BDE7C4625145659AA5F75 /* ReplaceMe.swift in Sources */,
+				E50300A8FDF4B367B6ED6B43FC760780 /* shivalib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38D849F73EA7D3B176D082E272861FDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = shivalib;
+			target = 319A36F8620A40FE4A5758E970821045 /* shivalib */;
+			targetProxy = 6DDB05BC734ABF45352BFEE616C3BAA7 /* PBXContainerItemProxy */;
+		};
+		E98E26930BDD9C9F57F9CD8067BD8B69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-shivalib_Example";
+			target = 8C9606A212242426B16A2AED6533D9A2 /* Pods-shivalib_Example */;
+			targetProxy = 370483DDA141F72C408D97BF02B11F05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F8EE33FC2DE45A5C13F4E8EA4238535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95473BC0BF71BBA89B00412B91832A66 /* Pods-shivalib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-shivalib_Example/Pods-shivalib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-shivalib_Example/Pods-shivalib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		251BF2286757B606370746BA8B1E667F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD6307CD190E65958B7084191729673 /* shivalib.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/shivalib/shivalib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/shivalib/shivalib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/shivalib/shivalib.modulemap";
+				PRODUCT_MODULE_NAME = shivalib;
+				PRODUCT_NAME = shivalib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7130C0674C4F48491EFC169F0097864C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B32F10CBDBB0C6A1792A6567B00224B6 /* Pods-shivalib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-shivalib_Tests/Pods-shivalib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-shivalib_Tests/Pods-shivalib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		847E4D059A024A82F5CB73B519C44442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5F4CC651CBCC72F9F7FD7B817778300 /* Pods-shivalib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-shivalib_Tests/Pods-shivalib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-shivalib_Tests/Pods-shivalib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99151D56B0CFA70F4901CD5DF576ED9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E24D3A97BCF3F28260495F6A0BA5E86C /* Pods-shivalib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-shivalib_Example/Pods-shivalib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-shivalib_Example/Pods-shivalib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D15F8169BA59FA6DB9EE661588BE7B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 565F9CD5102A3A800974C16D14D7E08F /* shivalib.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/shivalib/shivalib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/shivalib/shivalib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/shivalib/shivalib.modulemap";
+				PRODUCT_MODULE_NAME = shivalib;
+				PRODUCT_NAME = shivalib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		828A93214C4C5087A53A6546A090CBB3 /* Build configuration list for PBXNativeTarget "Pods-shivalib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99151D56B0CFA70F4901CD5DF576ED9D /* Debug */,
+				1F8EE33FC2DE45A5C13F4E8EA4238535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B94E329D07856207E631AD75D0FA1F2B /* Build configuration list for PBXNativeTarget "Pods-shivalib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847E4D059A024A82F5CB73B519C44442 /* Debug */,
+				7130C0674C4F48491EFC169F0097864C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC54257A4DDF46664E3CBF3E6448BC4 /* Build configuration list for PBXNativeTarget "shivalib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251BF2286757B606370746BA8B1E667F /* Debug */,
+				D15F8169BA59FA6DB9EE661588BE7B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

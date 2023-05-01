@@ -1,0 +1,6 @@
+framework module shivalib {
+  umbrella header "shivalib-umbrella.h"
+
+  export *
+  module * { export * }
+}

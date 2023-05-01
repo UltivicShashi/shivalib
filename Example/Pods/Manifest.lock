@@ -1,0 +1,16 @@
+PODS:
+  - shivalib (0.1.0)
+
+DEPENDENCIES:
+  - shivalib (from `../`)
+
+EXTERNAL SOURCES:
+  shivalib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  shivalib: bdad1fe8e039821ce705f4fedd622c595c363160
+
+PODFILE CHECKSUM: a91be469adbabe592057b6f329d6a8f4dcc42b9f
+
+COCOAPODS: 1.12.0
