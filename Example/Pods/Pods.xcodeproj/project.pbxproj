@@ -42,14 +42,14 @@
 		1E29DA66226A82E09309D8014DFF0FE4 /* Pods-shivalib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-shivalib_Example-umbrella.h"; sourceTree = "<group>"; };
 		214DE316477E3E378C3D9F3C0D00DBD4 /* Pods-shivalib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-shivalib_Tests"; path = Pods_shivalib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26BF0B595886C32E82F259C3A45D724E /* shivalib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "shivalib-dummy.m"; sourceTree = "<group>"; };
-		292B092DC9E53299C4534CC08579AF8A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2CCA375A743BA3661B93F00010FB41CD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		292B092DC9E53299C4534CC08579AF8A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2CCA375A743BA3661B93F00010FB41CD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		373C03D5B568CFF426E83C78E9EC5755 /* Pods-shivalib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-shivalib_Tests.modulemap"; sourceTree = "<group>"; };
 		4C833EF10E56CAB94BA439BCE3C84E3A /* Pods-shivalib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-shivalib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		565F9CD5102A3A800974C16D14D7E08F /* shivalib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shivalib.release.xcconfig; sourceTree = "<group>"; };
 		58A784A7E751AAE28C43426A340A4A9D /* Pods-shivalib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-shivalib_Example"; path = Pods_shivalib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		684DA5289DB9C408301A736A2DA5486A /* Pods-shivalib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-shivalib_Example.modulemap"; sourceTree = "<group>"; };
-		6EE984AAA8C83C6B03224E308D52F43D /* shivalib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = shivalib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6EE984AAA8C83C6B03224E308D52F43D /* shivalib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = shivalib.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73DC8F9449E0FBE3BBCCC4AFCD1E7E1C /* Pods-shivalib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-shivalib_Example-Info.plist"; sourceTree = "<group>"; };
 		75033B2727751A7E830A984AC7CF3997 /* shivalib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shivalib-prefix.pch"; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		8348893E2D17A385E9EA8FBD2A1483F1 /* Pods-shivalib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-shivalib_Example-dummy.m"; sourceTree = "<group>"; };
 		87A6E956CA30036435ABDB9635CC1DD1 /* shivalib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = shivalib.modulemap; sourceTree = "<group>"; };
 		95473BC0BF71BBA89B00412B91832A66 /* Pods-shivalib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-shivalib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B32F10CBDBB0C6A1792A6567B00224B6 /* Pods-shivalib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-shivalib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B395DAA5AF4BC3518AA55C58C33769FF /* Pods-shivalib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-shivalib_Tests-Info.plist"; sourceTree = "<group>"; };
 		C5F4CC651CBCC72F9F7FD7B817778300 /* Pods-shivalib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-shivalib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -560,8 +560,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
