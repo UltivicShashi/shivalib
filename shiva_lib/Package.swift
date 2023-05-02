@@ -11,7 +11,7 @@ let package = Package(
             name: "shiva_lib",
             targets: ["shiva_lib"]),
     ],
-    dependencies: [.package(url: "https://github.com/UltivicShashi/shivalib.git", from: "0.0.2")],
+    dependencies: [.package(url: "https://github.com/UltivicShashi/shivalib.git", from: "1.0.0")],
     targets: [
         .target(
             name: "shiva_lib",
