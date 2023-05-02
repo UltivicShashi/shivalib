@@ -43,6 +43,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		67A4C646975026B1F65388FF /* Pods_shivalib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shivalib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69AF375C2E82DA27994A1975 /* Pods-shivalib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shivalib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-shivalib_Tests/Pods-shivalib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8419AA492A00FC53000F60BF /* shivalib */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = shivalib; path = ../../../shivalib; sourceTree = "<group>"; };
 		9A9AEF71F0EF4E83E1AB5471 /* shivalib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = shivalib.podspec; path = ../shivalib.podspec; sourceTree = "<group>"; };
 		A52CA1D770D57E30D1857E15 /* Pods-shivalib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shivalib_Tests.release.xcconfig"; path = "Target Support Files/Pods-shivalib_Tests/Pods-shivalib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E066B81BF957494E4E41534E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -72,6 +73,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				8419AA492A00FC53000F60BF /* shivalib */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for shivalib */,
 				607FACE81AFB9204008FA782 /* Tests */,
