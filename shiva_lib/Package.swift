@@ -19,5 +19,6 @@ let package = Package(
         .testTarget(
             name: "shiva_libTests",
             dependencies: ["shiva_lib"]),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
