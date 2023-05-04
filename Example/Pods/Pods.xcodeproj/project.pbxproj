@@ -14,7 +14,7 @@
 		71C83E1E5E0F50B586E5FF6723386465 /* Pods-shivalib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E29DA66226A82E09309D8014DFF0FE4 /* Pods-shivalib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7207B41613BCEDD593C218BD700EA1A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7B2D60F9CCC644A0FA3B0532B1C9B1D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8404193C2A03892E00370E05 /* ImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404193B2A03892E00370E05 /* ImageExt.swift */; };
+		8404193E2A038E3F00370E05 /* ImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404193D2A038E3F00370E05 /* ImageExt.swift */; };
 		84E92EE8167D2AC9E01CF682B85C715E /* shivalib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9C3E9380BA52BC6A8BFB0F3DC31760 /* shivalib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E50300A8FDF4B367B6ED6B43FC760780 /* shivalib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF0B595886C32E82F259C3A45D724E /* shivalib-dummy.m */; };
 /* End PBXBuildFile section */
@@ -56,7 +56,7 @@
 		7C9C3E9380BA52BC6A8BFB0F3DC31760 /* shivalib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shivalib-umbrella.h"; sourceTree = "<group>"; };
 		7C9C85E0391322BE4A6E33EBD4E7C876 /* Pods-shivalib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-shivalib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8348893E2D17A385E9EA8FBD2A1483F1 /* Pods-shivalib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-shivalib_Example-dummy.m"; sourceTree = "<group>"; };
-		8404193B2A03892E00370E05 /* ImageExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExt.swift; sourceTree = "<group>"; };
+		8404193D2A038E3F00370E05 /* ImageExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageExt.swift; path = shivalib/Classes/ImageExt.swift; sourceTree = "<group>"; };
 		87A6E956CA30036435ABDB9635CC1DD1 /* shivalib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = shivalib.modulemap; sourceTree = "<group>"; };
 		95473BC0BF71BBA89B00412B91832A66 /* Pods-shivalib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-shivalib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; };
@@ -207,7 +207,7 @@
 		CFBCB61FC8FE3D14B6892F182C7F9D5E /* shivalib */ = {
 			isa = PBXGroup;
 			children = (
-				8404193B2A03892E00370E05 /* ImageExt.swift */,
+				8404193D2A038E3F00370E05 /* ImageExt.swift */,
 				7F2CE33BEF6FB898C5AE123DF029791E /* Pod */,
 				6FCC84EC039BB177A8D4B2A6909F47F8 /* Support Files */,
 			);
@@ -391,8 +391,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8404193E2A038E3F00370E05 /* ImageExt.swift in Sources */,
 				E50300A8FDF4B367B6ED6B43FC760780 /* shivalib-dummy.m in Sources */,
-				8404193C2A03892E00370E05 /* ImageExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

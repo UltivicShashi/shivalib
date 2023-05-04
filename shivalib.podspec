@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "13.0"
   spec.source       = { :git => "https://github.com/UltivicShashi/shivalib.git", :tag => "#{spec.version}" }
 
-  spec.source_files = "shivalib/**/*.{h,m,swift}"
+  spec.source_files = "shivalib/Classes/*.swift"
  
 end
 
