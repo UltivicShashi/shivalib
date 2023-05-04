@@ -232,7 +232,7 @@
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
 			packageReferences = (
-				8497B8112A023EE600F62D30 /* XCRemoteSwiftPackageReference "shivalib" */,
+				8404193F2A03A29F00370E05 /* XCRemoteSwiftPackageReference "shivalib" */,
 			);
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
 			projectDirPath = "";
@@ -594,7 +594,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8497B8112A023EE600F62D30 /* XCRemoteSwiftPackageReference "shivalib" */ = {
+		8404193F2A03A29F00370E05 /* XCRemoteSwiftPackageReference "shivalib" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/UltivicShashi/shivalib";
 			requirement = {
