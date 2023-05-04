@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "shivalib"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "A Cocoapods library written in Swift."
 
   spec.description  = "A Cocoapods library that helps access code in a better form."
@@ -18,6 +18,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/UltivicShashi/shivalib.git", :tag => "#{spec.version}" }
 
   spec.source_files = "shivalib/Classes/*.swift"
- 
+  spec.framework = 'UIKit'
 end
 
