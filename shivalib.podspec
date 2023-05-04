@@ -18,6 +18,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/UltivicShashi/shivalib.git", :tag => "#{spec.version}" }
 
   spec.source_files = "shivalib/**/*.{h,m,swift}"
-  spec.frameworks = 'UIKit' ~ 'Enable only required Framework'
+ 
 end
 
