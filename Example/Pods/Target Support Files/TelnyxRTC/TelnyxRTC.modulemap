@@ -1,0 +1,6 @@
+framework module TelnyxRTC {
+  umbrella header "TelnyxRTC-umbrella.h"
+
+  export *
+  module * { export * }
+}

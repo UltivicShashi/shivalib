@@ -1,8 +1,9 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/shivalib"
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Bugsnag" "${PODS_CONFIGURATION_BUILD_DIR}/Starscream" "${PODS_CONFIGURATION_BUILD_DIR}/TelnyxRTC" "${PODS_CONFIGURATION_BUILD_DIR}/shivalib" "${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/shivalib/shivalib.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "shivalib"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Bugsnag/Bugsnag.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Starscream/Starscream.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TelnyxRTC/TelnyxRTC.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/shivalib/shivalib.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -l"c++" -l"z" -framework "Bugsnag" -framework "Foundation" -framework "Security" -framework "Starscream" -framework "SystemConfiguration" -framework "TelnyxRTC" -framework "UIKit" -framework "WebRTC" -framework "shivalib"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
