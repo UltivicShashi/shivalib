@@ -7,13 +7,16 @@
 //
 
 import UIKit
-
+import shivalib
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imgShow: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        imgShow.clipsToBounds = true
+        imgShow.layer.cornerRadius = 8
     }
 
     override func didReceiveMemoryWarning() {
