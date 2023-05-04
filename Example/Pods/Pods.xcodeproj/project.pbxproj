@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = GoogleWebRTC;
+			productName = GoogleWebRTC;
 		};
 /* End PBXAggregateTarget section */
 
@@ -367,12 +368,12 @@
 		07B3CA60B54C753A270EFC42054CB138 /* BugsnagDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagDevice.h; path = Bugsnag/include/Bugsnag/BugsnagDevice.h; sourceTree = "<group>"; };
 		09B76EF115B642C044D568BF7D2913FF /* BugsnagPluginClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BugsnagPluginClient.m; path = Bugsnag/Plugins/BugsnagPluginClient.m; sourceTree = "<group>"; };
 		0AEB2732E4DB2FB72F96B7F9770D760E /* BSGEventUploadOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSGEventUploadOperation.m; path = Bugsnag/Delivery/BSGEventUploadOperation.m; sourceTree = "<group>"; };
-		0B378C7EE8897BD512E53AFDF75582BC /* BSG_KSBacktrace.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSBacktrace.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSBacktrace.c; sourceTree = "<group>"; };
+		0B378C7EE8897BD512E53AFDF75582BC /* BSG_KSBacktrace.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSBacktrace.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSBacktrace.c; sourceTree = "<group>"; };
 		0B4B49B5977B69A459527708FAF4FDBE /* BSG_RFC3339DateTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSG_RFC3339DateTool.m; path = Bugsnag/Helpers/BSG_RFC3339DateTool.m; sourceTree = "<group>"; };
 		0B5DB9DFD7D3724DFE39699FCBF792F6 /* InternalConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalConfig.swift; path = TelnyxRTC/Telnyx/InternalConfig.swift; sourceTree = "<group>"; };
 		0BB90D2B412FC992D371A24A048AD893 /* BugsnagStacktrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagStacktrace.h; path = Bugsnag/Payload/BugsnagStacktrace.h; sourceTree = "<group>"; };
 		0D6DF2F07270836055228D7F78CEF81B /* Bugsnag+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Bugsnag+Private.h"; path = "Bugsnag/Bugsnag+Private.h"; sourceTree = "<group>"; };
-		0DD9397876B67CA94E0B7286A0330DA3 /* BSG_KSMach_Arm.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSMach_Arm.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSMach_Arm.c; sourceTree = "<group>"; };
+		0DD9397876B67CA94E0B7286A0330DA3 /* BSG_KSMach_Arm.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSMach_Arm.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSMach_Arm.c; sourceTree = "<group>"; };
 		0DFA552720F8E3DA34C781A94363B503 /* FoundationTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationTransport.swift; path = Sources/Transport/FoundationTransport.swift; sourceTree = "<group>"; };
 		0E604F1CF81748FABBF8B270B4D72E82 /* BSG_KSFileUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSG_KSFileUtils.h; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSFileUtils.h; sourceTree = "<group>"; };
 		0E638C51D8F257A0B4DF647DE0D73164 /* BugsnagSessionFileStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BugsnagSessionFileStore.m; path = Bugsnag/Storage/BugsnagSessionFileStore.m; sourceTree = "<group>"; };
@@ -382,7 +383,7 @@
 		118F4A42495984BF177DD99BDC51F7CC /* BugsnagSession+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BugsnagSession+Private.h"; path = "Bugsnag/Payload/BugsnagSession+Private.h"; sourceTree = "<group>"; };
 		11BCABA0F58562B25019A9DF348886A3 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
 		1420AD644E71387A9FD519B389F67AC2 /* BugsnagClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagClient.h; path = Bugsnag/include/Bugsnag/BugsnagClient.h; sourceTree = "<group>"; };
-		152AAAB79CF5647810EE284A49D7DA85 /* BSG_KSCrashSentry_CPPException.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSCrashSentry_CPPException.mm; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Sentry/BSG_KSCrashSentry_CPPException.mm; sourceTree = "<group>"; };
+		152AAAB79CF5647810EE284A49D7DA85 /* BSG_KSCrashSentry_CPPException.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = BSG_KSCrashSentry_CPPException.mm; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Sentry/BSG_KSCrashSentry_CPPException.mm; sourceTree = "<group>"; };
 		155DE451711193FCAEDA71F55D192AA7 /* BSGStorageMigratorV0V1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSGStorageMigratorV0V1.h; path = Bugsnag/Storage/BSGStorageMigratorV0V1.h; sourceTree = "<group>"; };
 		157FEEC9E392E7B127ECC19B4AB70E80 /* BSG_KSCrashAdvanced.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSG_KSCrashAdvanced.h; path = Bugsnag/KSCrash/Source/KSCrash/Recording/BSG_KSCrashAdvanced.h; sourceTree = "<group>"; };
 		1697BDB129660055D22A4E0224DD0F7F /* BSGAppHangDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSGAppHangDetector.m; path = Bugsnag/Helpers/BSGAppHangDetector.m; sourceTree = "<group>"; };
@@ -391,27 +392,27 @@
 		18569010C4344161B557EA3E8C707634 /* FoundationHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPHandler.swift; path = Sources/Framer/FoundationHTTPHandler.swift; sourceTree = "<group>"; };
 		199DA22E2906DC327F86B570AAEB4B4B /* TelnyxRTC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TelnyxRTC.h; path = TelnyxRTC/TelnyxRTC.h; sourceTree = "<group>"; };
 		19F209753DE31F89E5C052C5F6EFFFC6 /* TxError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TxError.swift; path = TelnyxRTC/Telnyx/Models/TxError.swift; sourceTree = "<group>"; };
-		1C888BDFB29CDE665C8078942A71AF06 /* BSG_KSCrashSentry.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSCrashSentry.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Sentry/BSG_KSCrashSentry.c; sourceTree = "<group>"; };
+		1C888BDFB29CDE665C8078942A71AF06 /* BSG_KSCrashSentry.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSCrashSentry.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Sentry/BSG_KSCrashSentry.c; sourceTree = "<group>"; };
 		1D5C2C1087E539CAB8D8CFA8331BADF8 /* BugsnagKVStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagKVStore.h; path = Bugsnag/Helpers/BugsnagKVStore.h; sourceTree = "<group>"; };
 		1D8DE98C403ECA111C75AAEB0469B31E /* BSGConfigurationBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSGConfigurationBuilder.h; path = Bugsnag/Configuration/BSGConfigurationBuilder.h; sourceTree = "<group>"; };
 		1DA89F5B3A5D60BEEE0B484C94BBCF79 /* BugsnagBreadcrumb+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BugsnagBreadcrumb+Private.h"; path = "Bugsnag/Payload/BugsnagBreadcrumb+Private.h"; sourceTree = "<group>"; };
 		1E29DA66226A82E09309D8014DFF0FE4 /* Pods-shivalib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-shivalib_Example-umbrella.h"; sourceTree = "<group>"; };
 		1EA013F5392CD3FC1D9FC8E33FE11B10 /* BSGEventUploadObjectOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSGEventUploadObjectOperation.m; path = Bugsnag/Delivery/BSGEventUploadObjectOperation.m; sourceTree = "<group>"; };
-		1EF3A60E9A7CBA27380F90FFB6DFD24B /* BSG_KSCrashReport.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSCrashReport.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/BSG_KSCrashReport.c; sourceTree = "<group>"; };
+		1EF3A60E9A7CBA27380F90FFB6DFD24B /* BSG_KSCrashReport.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSCrashReport.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/BSG_KSCrashReport.c; sourceTree = "<group>"; };
 		1F533A9C85B3FC4538FD32BA6A61612E /* BugsnagStateEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagStateEvent.h; path = Bugsnag/Payload/BugsnagStateEvent.h; sourceTree = "<group>"; };
 		1FD9A529C0D027083086D6D90795FCFA /* BSG_KSCrashState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSG_KSCrashState.m; path = Bugsnag/KSCrash/Source/KSCrash/Recording/BSG_KSCrashState.m; sourceTree = "<group>"; };
 		214DE316477E3E378C3D9F3C0D00DBD4 /* Pods-shivalib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-shivalib_Tests"; path = Pods_shivalib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EED19454EE3D03064A9A5D9A766EAE /* BugsnagSessionTrackingPayload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BugsnagSessionTrackingPayload.m; path = Bugsnag/Payload/BugsnagSessionTrackingPayload.m; sourceTree = "<group>"; };
 		254525820DAC6D4EAC2ADDC8A8E78C89 /* BugsnagHandledState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagHandledState.h; path = Bugsnag/Payload/BugsnagHandledState.h; sourceTree = "<group>"; };
 		2682DC64AC7C28F8CAC7C4606DCFEB21 /* BugsnagAppWithState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagAppWithState.h; path = Bugsnag/include/Bugsnag/BugsnagAppWithState.h; sourceTree = "<group>"; };
-		26EDFADFE4DE7CFCEA5EC6600CFEA016 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		26EDFADFE4DE7CFCEA5EC6600CFEA016 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		277D15EBD0398573CA373B3CB41E7335 /* BSG_KSMachHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSG_KSMachHeaders.h; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSMachHeaders.h; sourceTree = "<group>"; };
 		27FAE1718857210049B5122C84ED30FA /* Call.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Call.swift; path = TelnyxRTC/Telnyx/WebRTC/Call.swift; sourceTree = "<group>"; };
 		29387E1E11874676655C4B058E8D7EE9 /* Message.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Message.swift; path = TelnyxRTC/Telnyx/Verto/Message.swift; sourceTree = "<group>"; };
-		2AD71C3DA86BFD39ACB4329A1D26B07F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2AD71C3DA86BFD39ACB4329A1D26B07F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2CC4C3E1E80C2B0704BC8EBEAB3A8EC3 /* BugsnagSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BugsnagSession.m; path = Bugsnag/Payload/BugsnagSession.m; sourceTree = "<group>"; };
 		2D459DDA76516777A6C1ADD5C9D9FA1E /* BSGOnErrorSentBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSGOnErrorSentBlock.h; path = Bugsnag/KSCrash/Source/KSCrash/Reporting/Filters/BSGOnErrorSentBlock.h; sourceTree = "<group>"; };
-		2DCF52301F206D8E86E30EA74C735641 /* BSG_KSMach.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSMach.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSMach.c; sourceTree = "<group>"; };
+		2DCF52301F206D8E86E30EA74C735641 /* BSG_KSMach.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSMach.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSMach.c; sourceTree = "<group>"; };
 		33E84D5EE43154E3384839D1FF7D6EF2 /* BSGEventUploadFileOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSGEventUploadFileOperation.m; path = Bugsnag/Delivery/BSGEventUploadFileOperation.m; sourceTree = "<group>"; };
 		352A4C57382B4D3A40BA3BA540067A0A /* TxCallInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TxCallInfo.swift; path = TelnyxRTC/Telnyx/Models/TxCallInfo.swift; sourceTree = "<group>"; };
 		352F0852442B1C0B046081FCE226AFE2 /* BSG_KSMachApple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSG_KSMachApple.h; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSMachApple.h; sourceTree = "<group>"; };
@@ -427,9 +428,9 @@
 		418E36D2CBF12D618AAF58E55F6E4186 /* TxClientDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TxClientDelegate.swift; path = TelnyxRTC/Telnyx/TxClientDelegate.swift; sourceTree = "<group>"; };
 		424077AA51E1184B7E4C7AD89BC32BE8 /* BugsnagBreadcrumbs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagBreadcrumbs.h; path = Bugsnag/Breadcrumbs/BugsnagBreadcrumbs.h; sourceTree = "<group>"; };
 		426282DB217D1E2032185E7593CF95FD /* BugsnagKVStoreObjC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BugsnagKVStoreObjC.m; path = Bugsnag/Helpers/BugsnagKVStoreObjC.m; sourceTree = "<group>"; };
-		42A534CFDB4FB19587DC23292EDE7FF9 /* BSG_KSCrashSentry_MachException.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSCrashSentry_MachException.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Sentry/BSG_KSCrashSentry_MachException.c; sourceTree = "<group>"; };
+		42A534CFDB4FB19587DC23292EDE7FF9 /* BSG_KSCrashSentry_MachException.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSCrashSentry_MachException.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Sentry/BSG_KSCrashSentry_MachException.c; sourceTree = "<group>"; };
 		45017F8D2862224A7B5BF717EB450652 /* BSG_KSCrashSentry_NSException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSG_KSCrashSentry_NSException.m; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Sentry/BSG_KSCrashSentry_NSException.m; sourceTree = "<group>"; };
-		460D312BC3D91270DAF80606DA41D3BA /* BSG_KSString.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSString.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSString.c; sourceTree = "<group>"; };
+		460D312BC3D91270DAF80606DA41D3BA /* BSG_KSString.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSString.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSString.c; sourceTree = "<group>"; };
 		46E2681C644AFE3EBC7603A9E6D2D7C1 /* FrameCollector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameCollector.swift; path = Sources/Framer/FrameCollector.swift; sourceTree = "<group>"; };
 		46E636736FAA29A6B29AC31DEBFFBF1C /* BugsnagLastRunInfo+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BugsnagLastRunInfo+Private.h"; path = "Bugsnag/BugsnagLastRunInfo+Private.h"; sourceTree = "<group>"; };
 		472D22CF1C9B72403224668C694C243A /* BugsnagDeviceWithState+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BugsnagDeviceWithState+Private.h"; path = "Bugsnag/Payload/BugsnagDeviceWithState+Private.h"; sourceTree = "<group>"; };
@@ -452,7 +453,7 @@
 		57168FAA0D3238CAF3A4C14362C0CE5C /* Bugsnag-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Bugsnag-Info.plist"; sourceTree = "<group>"; };
 		573578CF499CD4D481AE2A877C43B579 /* BSG_Jailbreak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSG_Jailbreak.h; path = Bugsnag/KSCrash/Source/KSCrash/Recording/BSG_Jailbreak.h; sourceTree = "<group>"; };
 		573C98D300B221B2FF0C4D3CD22B9A6D /* BSGEventUploader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSGEventUploader.h; path = Bugsnag/Delivery/BSGEventUploader.h; sourceTree = "<group>"; };
-		5749B2693F451630902F49C326F65D5E /* BSG_KSObjC.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSObjC.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSObjC.c; sourceTree = "<group>"; };
+		5749B2693F451630902F49C326F65D5E /* BSG_KSObjC.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSObjC.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSObjC.c; sourceTree = "<group>"; };
 		57CAC80EC355BD46E75636BC9F8E6B57 /* BugsnagApiClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagApiClient.h; path = Bugsnag/Delivery/BugsnagApiClient.h; sourceTree = "<group>"; };
 		58A784A7E751AAE28C43426A340A4A9D /* Pods-shivalib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-shivalib_Example"; path = Pods_shivalib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		598EA7FFDFDA50F876234CD0C58C45BB /* HTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHandler.swift; path = Sources/Framer/HTTPHandler.swift; sourceTree = "<group>"; };
@@ -465,7 +466,7 @@
 		60BFECAF3F29491E5E12B0561E111C86 /* BSG_KSCrashReportWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSG_KSCrashReportWriter.h; path = Bugsnag/include/Bugsnag/BSG_KSCrashReportWriter.h; sourceTree = "<group>"; };
 		619FC12433DEBEA009C4D0EA62219D0D /* BugsnagKVStoreObjC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagKVStoreObjC.h; path = Bugsnag/Helpers/BugsnagKVStoreObjC.h; sourceTree = "<group>"; };
 		622A4878A1CC54D37EE3BFA1D20B2AF7 /* BugsnagPluginClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagPluginClient.h; path = Bugsnag/Plugins/BugsnagPluginClient.h; sourceTree = "<group>"; };
-		63A9559D4712E9537434E1067E3FF504 /* BSG_KSSignalInfo.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSSignalInfo.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSSignalInfo.c; sourceTree = "<group>"; };
+		63A9559D4712E9537434E1067E3FF504 /* BSG_KSSignalInfo.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSSignalInfo.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSSignalInfo.c; sourceTree = "<group>"; };
 		63F0AFCDB0822778232BAA5EE17AA20D /* BugsnagStacktrace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BugsnagStacktrace.m; path = Bugsnag/Payload/BugsnagStacktrace.m; sourceTree = "<group>"; };
 		64283856CE4A77DC5EF82CD11B5DD097 /* BugsnagError+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BugsnagError+Private.h"; path = "Bugsnag/Payload/BugsnagError+Private.h"; sourceTree = "<group>"; };
 		64D1C2C33F5A699F8FC831AA81AB181C /* BSG_KSCrashContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSG_KSCrashContext.h; path = Bugsnag/KSCrash/Source/KSCrash/Recording/BSG_KSCrashContext.h; sourceTree = "<group>"; };
@@ -480,7 +481,7 @@
 		6A76E3DF07C53EE3BDFDDB09FA867305 /* BugsnagSessionFileStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagSessionFileStore.h; path = Bugsnag/Storage/BugsnagSessionFileStore.h; sourceTree = "<group>"; };
 		6C339FB02D135FD65A2D08CF6519EE7F /* TxServerConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TxServerConfiguration.swift; path = TelnyxRTC/Telnyx/Models/TxServerConfiguration.swift; sourceTree = "<group>"; };
 		6D21DC4D50A8A9245DF7B16FDE11F435 /* Peer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Peer.swift; path = TelnyxRTC/Telnyx/WebRTC/Peer.swift; sourceTree = "<group>"; };
-		6D34030BF7C93525CDB62D5E53F23D5D /* BugsnagKVStore.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BugsnagKVStore.c; path = Bugsnag/Helpers/BugsnagKVStore.c; sourceTree = "<group>"; };
+		6D34030BF7C93525CDB62D5E53F23D5D /* BugsnagKVStore.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BugsnagKVStore.c; path = Bugsnag/Helpers/BugsnagKVStore.c; sourceTree = "<group>"; };
 		6F46E0DC48C2662046B6BEEF71B0F488 /* BSG_KSDynamicLinker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSG_KSDynamicLinker.h; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSDynamicLinker.h; sourceTree = "<group>"; };
 		70EB9C78A432FA6BA940698E2EBF3B70 /* Security.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Security.swift; path = Sources/Security/Security.swift; sourceTree = "<group>"; };
 		71B90A1B3C46BA4959F72DD94DFA97C3 /* BSG_KSCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSG_KSCrash.h; path = Bugsnag/KSCrash/Source/KSCrash/Recording/BSG_KSCrash.h; sourceTree = "<group>"; };
@@ -511,7 +512,7 @@
 		8348893E2D17A385E9EA8FBD2A1483F1 /* Pods-shivalib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-shivalib_Example-dummy.m"; sourceTree = "<group>"; };
 		84F53877E23E424CE66CAD8E1AAA5FF3 /* BugsnagSystemState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BugsnagSystemState.m; path = Bugsnag/BugsnagSystemState.m; sourceTree = "<group>"; };
 		866138A8A0386CF8168514A994C04CD9 /* BSG_KSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSG_KSLogger.h; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSLogger.h; sourceTree = "<group>"; };
-		8774A41758836948EBFC55B6865254C6 /* BSG_KSFileUtils.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSFileUtils.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSFileUtils.c; sourceTree = "<group>"; };
+		8774A41758836948EBFC55B6865254C6 /* BSG_KSFileUtils.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSFileUtils.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSFileUtils.c; sourceTree = "<group>"; };
 		884C412F579F8B5490F88EDD0216CC2D /* BugsnagMetadataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagMetadataStore.h; path = Bugsnag/include/Bugsnag/BugsnagMetadataStore.h; sourceTree = "<group>"; };
 		88870B2FF082125AA5D68DFA53505852 /* FoundationHTTPServerHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPServerHandler.swift; path = Sources/Framer/FoundationHTTPServerHandler.swift; sourceTree = "<group>"; };
 		891B2270823847ED23F2ECFC28F935EC /* Starscream */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -530,14 +531,14 @@
 		94DB27B16477C8071F6482DCA375C5AE /* BSGSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSGSerialization.h; path = Bugsnag/Helpers/BSGSerialization.h; sourceTree = "<group>"; };
 		95473BC0BF71BBA89B00412B91832A66 /* Pods-shivalib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-shivalib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9657AB3AE00373D44686CF80BD7B88FC /* Data+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extensions.swift"; path = "Sources/DataBytes/Data+Extensions.swift"; sourceTree = "<group>"; };
-		9760A8BA6048E4AB14EF96614CB862B1 /* BSG_KSMachHeaders.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSMachHeaders.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSMachHeaders.c; sourceTree = "<group>"; };
+		9760A8BA6048E4AB14EF96614CB862B1 /* BSG_KSMachHeaders.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSMachHeaders.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSMachHeaders.c; sourceTree = "<group>"; };
 		99255C0015CD6357B30EDB3C18B1C0FB /* NSError+BSG_SimpleConstructor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+BSG_SimpleConstructor.h"; path = "Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/NSError+BSG_SimpleConstructor.h"; sourceTree = "<group>"; };
 		997CD6B8398133FFBEA36DC536458E43 /* TxCallOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TxCallOptions.swift; path = TelnyxRTC/Telnyx/Models/TxCallOptions.swift; sourceTree = "<group>"; };
-		9A41FAE36D42914600EBADB515A41D55 /* BSG_KSJSONCodec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSJSONCodec.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSJSONCodec.c; sourceTree = "<group>"; };
+		9A41FAE36D42914600EBADB515A41D55 /* BSG_KSJSONCodec.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSJSONCodec.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSJSONCodec.c; sourceTree = "<group>"; };
 		9A7576128B655CB3E72350E10825A001 /* shivalib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "shivalib-Info.plist"; sourceTree = "<group>"; };
 		9C3FB295091C3DC9DE5753CC9DACB81B /* BSG_KSJSONCodecObjC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSG_KSJSONCodecObjC.h; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSJSONCodecObjC.h; sourceTree = "<group>"; };
 		9C59C2B9BBB1A65F093C6C10FDD58944 /* Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Starscream-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; };
 		A14C74BDDDAE26AB68BCB0CCC8DDB08B /* BSG_KSCrashSentry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSG_KSCrashSentry.h; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Sentry/BSG_KSCrashSentry.h; sourceTree = "<group>"; };
 		A32C05F25955DC968684AFD2B1CDD012 /* BSG_KSCrashType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSG_KSCrashType.h; path = Bugsnag/KSCrash/Source/KSCrash/Recording/BSG_KSCrashType.h; sourceTree = "<group>"; };
 		A3799126A613E4EE82606EFF1E27ED30 /* shivalib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shivalib.debug.xcconfig; sourceTree = "<group>"; };
@@ -553,7 +554,7 @@
 		AC0EC140207D73CA5A5040F8BE33F4A2 /* BSGConnectivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSGConnectivity.m; path = Bugsnag/Delivery/BSGConnectivity.m; sourceTree = "<group>"; };
 		AC28B3636817EB7D315307889864A786 /* NativeEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeEngine.swift; path = Sources/Engine/NativeEngine.swift; sourceTree = "<group>"; };
 		AE14FE242C72E52499C864EE73B06A56 /* BugsnagApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagApp.h; path = Bugsnag/include/Bugsnag/BugsnagApp.h; sourceTree = "<group>"; };
-		AF6B5C2ED3C188A55483CBB05DA01B4C /* BSG_KSSysCtl.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSSysCtl.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSSysCtl.c; sourceTree = "<group>"; };
+		AF6B5C2ED3C188A55483CBB05DA01B4C /* BSG_KSSysCtl.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSSysCtl.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSSysCtl.c; sourceTree = "<group>"; };
 		AFCFF05430D46AE44C4B2B0AC7D9715A /* Bugsnag */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Bugsnag; path = Bugsnag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B074AB744C9DD756BF18B2FD0C12F316 /* MRCCanary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRCCanary.m; path = Bugsnag/Helpers/MRCCanary.m; sourceTree = "<group>"; };
 		B1D8C671EA427E0996CED9E51EAF7BB7 /* TxClientSocketDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TxClientSocketDelegate.swift; path = TelnyxRTC/Telnyx/TxClientSocketDelegate.swift; sourceTree = "<group>"; };
@@ -562,7 +563,7 @@
 		B395DAA5AF4BC3518AA55C58C33769FF /* Pods-shivalib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-shivalib_Tests-Info.plist"; sourceTree = "<group>"; };
 		B419927E9B631CE8826EDF009B9AF2B6 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = TelnyxRTC/Telnyx/Utils/Logger.swift; sourceTree = "<group>"; };
 		B449DF91D51BFFA9987B5EE8266C5022 /* BSGEventUploadOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSGEventUploadOperation.h; path = Bugsnag/Delivery/BSGEventUploadOperation.h; sourceTree = "<group>"; };
-		B6B4B21D6A186CDEB4D15B1E5D1EAC50 /* BSG_KSMach_x86_32.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSMach_x86_32.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSMach_x86_32.c; sourceTree = "<group>"; };
+		B6B4B21D6A186CDEB4D15B1E5D1EAC50 /* BSG_KSMach_x86_32.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSMach_x86_32.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSMach_x86_32.c; sourceTree = "<group>"; };
 		BA8FF6E0FAFCF9F8544C2EE12E3402DD /* BugsnagSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagSession.h; path = Bugsnag/include/Bugsnag/BugsnagSession.h; sourceTree = "<group>"; };
 		BACE567150C655C2DA97750F891311A4 /* BSG_KSCrashIdentifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSG_KSCrashIdentifier.h; path = Bugsnag/KSCrash/Source/KSCrash/Recording/BSG_KSCrashIdentifier.h; sourceTree = "<group>"; };
 		BB5AD9E1CDB7A49609D7A3087F2E6F7F /* BugsnagUser+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BugsnagUser+Private.h"; path = "Bugsnag/Payload/BugsnagUser+Private.h"; sourceTree = "<group>"; };
@@ -571,10 +572,10 @@
 		BBBC8CEA6DFDC5874A2087FAFCB69D28 /* BugsnagStateEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BugsnagStateEvent.m; path = Bugsnag/Payload/BugsnagStateEvent.m; sourceTree = "<group>"; };
 		BBD07A66D061C6228E03F2CAA3154A7B /* GoogleWebRTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleWebRTC.release.xcconfig; sourceTree = "<group>"; };
 		BC12DECC22354C45CE42112C4327FB0B /* BSGNotificationBreadcrumbs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSGNotificationBreadcrumbs.h; path = Bugsnag/Breadcrumbs/BSGNotificationBreadcrumbs.h; sourceTree = "<group>"; };
-		BFA39C8CF57222434B378DCED06A93C2 /* BSG_KSMach_Arm64.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSMach_Arm64.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSMach_Arm64.c; sourceTree = "<group>"; };
+		BFA39C8CF57222434B378DCED06A93C2 /* BSG_KSMach_Arm64.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSMach_Arm64.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSMach_Arm64.c; sourceTree = "<group>"; };
 		BFB22FFD806025A2903179BAD9A72A33 /* InfoMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfoMessage.swift; path = TelnyxRTC/Telnyx/Verto/InfoMessage.swift; sourceTree = "<group>"; };
 		C114383E3627DE63D0CDD1E977DF3D3B /* BSG_KSSystemInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSG_KSSystemInfo.h; path = Bugsnag/KSCrash/Source/KSCrash/Recording/BSG_KSSystemInfo.h; sourceTree = "<group>"; };
-		C25214E785191CA5238C58B3204A5A7D /* shivalib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = shivalib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C25214E785191CA5238C58B3204A5A7D /* shivalib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = shivalib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C28870A3483C8769A185088C8573E373 /* BugsnagConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagConfiguration.h; path = Bugsnag/include/Bugsnag/BugsnagConfiguration.h; sourceTree = "<group>"; };
 		C2B7AAEF14DEE7C6B1A55E778F093C22 /* BugsnagConfiguration+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BugsnagConfiguration+Private.h"; path = "Bugsnag/Configuration/BugsnagConfiguration+Private.h"; sourceTree = "<group>"; };
 		C4E21FF9D182138A70059DB6E2B2C7FA /* BugsnagConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BugsnagConfiguration.m; path = Bugsnag/Configuration/BugsnagConfiguration.m; sourceTree = "<group>"; };
@@ -618,7 +619,7 @@
 		DD5549C371B2D990B3822BB1E722E9B6 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = Frameworks/frameworks/WebRTC.framework; sourceTree = "<group>"; };
 		DDC1CCC8DEECBEF95D785D090CE33B56 /* BugsnagLastRunInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BugsnagLastRunInfo.m; path = Bugsnag/BugsnagLastRunInfo.m; sourceTree = "<group>"; };
 		DE1464D2A295A872D39D31FEBEA78914 /* Pods-shivalib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-shivalib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DEB5E6A665569DD393055BE1E3063B22 /* BSG_KSDynamicLinker.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSDynamicLinker.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSDynamicLinker.c; sourceTree = "<group>"; };
+		DEB5E6A665569DD393055BE1E3063B22 /* BSG_KSDynamicLinker.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSDynamicLinker.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSDynamicLinker.c; sourceTree = "<group>"; };
 		E11470BB186ABABA84882F1C4BFC116E /* BugsnagUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BugsnagUser.m; path = Bugsnag/Payload/BugsnagUser.m; sourceTree = "<group>"; };
 		E18EA28DEA8813F85F2168065FAE8C03 /* BSGJSONSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSGJSONSerialization.m; path = Bugsnag/Helpers/BSGJSONSerialization.m; sourceTree = "<group>"; };
 		E1B2D781DED2F6FB47E1D60961734DC3 /* BSG_KSCrashC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSG_KSCrashC.h; path = Bugsnag/KSCrash/Source/KSCrash/Recording/BSG_KSCrashC.h; sourceTree = "<group>"; };
@@ -627,18 +628,18 @@
 		E5446E301E42DEC86C397531AEBAFA35 /* StringHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringHTTPHandler.swift; path = Sources/Framer/StringHTTPHandler.swift; sourceTree = "<group>"; };
 		E5861946BE7CE79EBED1EC3165753C48 /* BugsnagCollections.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagCollections.h; path = Bugsnag/Helpers/BugsnagCollections.h; sourceTree = "<group>"; };
 		E5DB11F3E248142A44086DCFAFBA4001 /* Engine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Engine.swift; path = Sources/Engine/Engine.swift; sourceTree = "<group>"; };
-		E75CDDE17CD255839E6BC2FD03D43C86 /* BSG_KSCrashC.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSCrashC.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/BSG_KSCrashC.c; sourceTree = "<group>"; };
-		E99D40FF8E74DB3798A4A0ECF7297445 /* BSG_KSCrashType.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSCrashType.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/BSG_KSCrashType.c; sourceTree = "<group>"; };
+		E75CDDE17CD255839E6BC2FD03D43C86 /* BSG_KSCrashC.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSCrashC.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/BSG_KSCrashC.c; sourceTree = "<group>"; };
+		E99D40FF8E74DB3798A4A0ECF7297445 /* BSG_KSCrashType.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSCrashType.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/BSG_KSCrashType.c; sourceTree = "<group>"; };
 		EB2EAEDB90A7E9E28838FF53C499E170 /* BSG_KSObjC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSG_KSObjC.h; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSObjC.h; sourceTree = "<group>"; };
 		EDB32C65ED154209ADDA1A97134BA571 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
 		EDC1CDDA7B7651413AA3F2A869E8BDFA /* BSG_RFC3339DateTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSG_RFC3339DateTool.h; path = Bugsnag/Helpers/BSG_RFC3339DateTool.h; sourceTree = "<group>"; };
 		F03D4E541A0E096A2EB55AA64554CBD4 /* BSGEventUploader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSGEventUploader.m; path = Bugsnag/Delivery/BSGEventUploader.m; sourceTree = "<group>"; };
 		F076CC0F865739BD3A19488EE6D5AA7C /* Framer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Framer.swift; path = Sources/Framer/Framer.swift; sourceTree = "<group>"; };
-		F11451A6064C700846F22B7B254569EE /* BSG_KSMach_x86_64.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSMach_x86_64.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSMach_x86_64.c; sourceTree = "<group>"; };
+		F11451A6064C700846F22B7B254569EE /* BSG_KSMach_x86_64.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSMach_x86_64.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Tools/BSG_KSMach_x86_64.c; sourceTree = "<group>"; };
 		F1DF5DCC8695F7CD56256AAD37F6E21C /* BugsnagError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BugsnagError.m; path = Bugsnag/Payload/BugsnagError.m; sourceTree = "<group>"; };
 		F20D5E3E9791D98781B88090D14B626F /* BugsnagEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagEvent.h; path = Bugsnag/include/Bugsnag/BugsnagEvent.h; sourceTree = "<group>"; };
 		F585BFE226B8DD598234A4CF4F075D98 /* Pods-shivalib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-shivalib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F6F125429ADBE1E5D89470117BC7059D /* BSG_KSCrashSentry_Signal.c */ = {isa = PBXFileReference; includeInIndex = 1; name = BSG_KSCrashSentry_Signal.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Sentry/BSG_KSCrashSentry_Signal.c; sourceTree = "<group>"; };
+		F6F125429ADBE1E5D89470117BC7059D /* BSG_KSCrashSentry_Signal.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = BSG_KSCrashSentry_Signal.c; path = Bugsnag/KSCrash/Source/KSCrash/Recording/Sentry/BSG_KSCrashSentry_Signal.c; sourceTree = "<group>"; };
 		F74DFBC4FAAECF5BCD01F2CEBE4DAC67 /* BSG_KSSystemInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSG_KSSystemInfo.m; path = Bugsnag/KSCrash/Source/KSCrash/Recording/BSG_KSSystemInfo.m; sourceTree = "<group>"; };
 		F74E91C748ECE9DF7CB076A6D238B411 /* BugsnagSessionTrackingPayload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagSessionTrackingPayload.h; path = Bugsnag/Payload/BugsnagSessionTrackingPayload.h; sourceTree = "<group>"; };
 		F76189C9A4C0E87986F2EE7A6376924D /* BugsnagEndpointConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugsnagEndpointConfiguration.h; path = Bugsnag/include/Bugsnag/BugsnagEndpointConfiguration.h; sourceTree = "<group>"; };
@@ -734,7 +735,6 @@
 				FF6A6338B9AEFBDBF61A2B1187E4D574 /* WSEngine.swift */,
 				6003FB45AFB35B1F790855B4C2B3141B /* Support Files */,
 			);
-			name = Starscream;
 			path = Starscream;
 			sourceTree = "<group>";
 		};
@@ -1002,7 +1002,6 @@
 				02A2A5276D2B518A96C979EF9696BDFA /* NSError+BSG_SimpleConstructor.m */,
 				7829FD2622314C30D9E41E8A20CBD2D6 /* Support Files */,
 			);
-			name = Bugsnag;
 			path = Bugsnag;
 			sourceTree = "<group>";
 		};
@@ -1103,7 +1102,6 @@
 				6C339FB02D135FD65A2D08CF6519EE7F /* TxServerConfiguration.swift */,
 				2CA83DD9EB71AA65A86E4AD1D135C25B /* Support Files */,
 			);
-			name = TelnyxRTC;
 			path = TelnyxRTC;
 			sourceTree = "<group>";
 		};
@@ -1185,7 +1183,6 @@
 				92D2A9477E11AB998FEC54E76F826602 /* Frameworks */,
 				D2A7F04C6E2331A8977203DAECEBD090 /* Support Files */,
 			);
-			name = GoogleWebRTC;
 			path = GoogleWebRTC;
 			sourceTree = "<group>";
 		};
