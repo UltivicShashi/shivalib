@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "shivalib",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/UltivicShashi/shivalib",
+      "state" : {
+        "revision" : "93144789f4f01e57f138264e392607527ceda405",
+        "version" : "1.0.3"
+      }
+    }
+  ],
+  "version" : 2
+}
