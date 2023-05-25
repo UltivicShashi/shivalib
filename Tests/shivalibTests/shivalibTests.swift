@@ -4,6 +4,6 @@ import XCTest
 final class shivalibTests: XCTestCase {
     func testExample() throws {
        
-        XCTAssertEqual(shivalib().text, "Hello, World!")
+        XCTAssertEqual(shivalib().text, "")
     }
 }
